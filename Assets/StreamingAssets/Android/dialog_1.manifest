@@ -1,0 +1,89 @@
+ManifestFileVersion: 0
+CRC: 472158978
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06006859f382dc03d8760a17cb10247b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2805870491c94d322701394217dcdbdd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5084c483fb0a484484bbf2a52e242484, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f16e9bae10a7445285e31eaec5b9586a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 05772c1f2f30496994f45fc5ee4429c4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Stuffs/Assets/Music/Romantic.mp3
+- Assets/Stuffs/Assets/UI/DialoguePanel.png
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_face_happy.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_suspicious_Dialogue.png
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_face_angry.png
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_face_shocked.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Vampire.png
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_face_neutral.png
+- Assets/Stuffs/Assets/UI/NarratorPanel.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_hair_1_Dialogue.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Shocked.png
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_hair.png
+- Assets/Stuffs/Assets/Backgrounds/Bar.png
+- "Assets/Stuffs/Assets/Emotions/Emotion_\u0421onfuse.png"
+- Assets/Stuffs/Assets/Music/Life.mp3
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_face_happy.png
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_face_shocked.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Horny.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_Body_Dialogue.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_neutral_Dialogue.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Suspicious.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Happy.png
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_basic.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Sad.png
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_chair_1.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_shocked_Dialogue.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_happy_Dialogue.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_angry_Dialogue.png
+- Assets/Stuffs/Assets/Backgrounds/Beauty_salon.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Angry.png
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_face_sad.png
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_face_angry.png
+- Assets/Stuffs/Assets/Prefabs/Container.prefab
+- Assets/Stuffs/Assets/UI/ChoiceButton9Slice.png
+- Assets/Stuffs/Assets/Emotions/Emotion_Neutral.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_horny_Dialogue.png
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_basic.png
+- Assets/Stuffs/Assets/Music/Investigation.mp3
+- Assets/Stuffs/Assets/Char Sam/Sprites/sam_face_sad.png
+- Assets/Stuffs/Assets/Backgrounds/Apartment.png
+- Assets/Stuffs/Assets/Char Jerry/Sprites/jerry_face_neutral.png
+- Assets/Stuffs/Assets/Char Player/Sprites/player_face_sad_Dialogue.png
+Dependencies: []
