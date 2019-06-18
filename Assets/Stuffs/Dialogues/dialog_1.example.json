@@ -1,0 +1,264 @@
+{
+	"bundleName": "dialog_1",
+	"version": 0,
+	"settings": {
+		"musics": [
+			"Investigation",
+			"Life",
+			"Romantic"
+		],
+		"backgrounds": [
+			"Apartment",
+			"Bar",
+			"Beauty_salon"
+		]
+	},
+	"dialogues": [
+		{
+			"id": 0,
+			"person": 0,
+			"delay": 3.0,
+			"music": 0,
+			"background": 0,
+			"forceEmotion": false,
+			"emotion": 0,
+			"title": "",
+			"message": "Welcome! Next Dialog Started in 3 seconds",
+			"steps": [
+
+			],
+			"isComplete": false
+		},
+		{
+			"id": 1,
+			"person": 0,
+			"delay": 5.0,
+			"music": 0,
+			"background": 0,
+			"forceEmotion": false,
+			"emotion": 3,
+			"title": "",
+			"message": "1) Hello! My Name is XXX.",
+			"steps": [
+				{
+					"dialogue_id": 2,
+					"content": "Dialog A (to 2)"
+				},
+				{
+					"dialogue_id": 3,
+					"content": "Dialog B (to 3)"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 2,
+			"person": -1,
+			"delay": 5.0,
+			"music": 0,
+			"background": 1,
+			"forceEmotion": false,
+			"emotion": 2,
+			"title": "",
+			"message": "2) What are you doing?",
+			"steps": [
+				{
+					"dialogue_id": 3,
+					"content": "AAAA (to 3)"
+				},
+				{
+					"dialogue_id": 4,
+					"content": "BBBBB (to 4)"
+				},
+				{
+					"dialogue_id": 1,
+					"content": "Back to 1"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 3,
+			"person": 2,
+			"delay": 5.0,
+			"music": 1,
+			"background": 0,
+			"forceEmotion": false,
+			"emotion": 8,
+			"title": "",
+			"message": "3) What is next?",
+			"steps": [
+				{
+					"dialogue_id": 5,
+					"content": "Interesting (to 5)"
+				},
+				{
+					"dialogue_id": 4,
+					"content": "Not Interesting (to 5)"
+				},
+				{
+					"dialogue_id": 2,
+					"content": "Back (to 2)"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 4,
+			"person": 1,
+			"delay": 5.0,
+			"music": 1,
+			"background": 0,
+			"forceEmotion": false,
+			"emotion": 4,
+			"title": "",
+			"message": "4) Let's do it!",
+			"steps": [
+				{
+					"dialogue_id": 6,
+					"content": "What? (to 6)"
+				},
+				{
+					"dialogue_id": 5,
+					"content": "Ohh! No.. (to 5)"
+				},
+				{
+					"dialogue_id": 7,
+					"content": "Ok (to 7)"
+				},
+				{
+					"dialogue_id": 3,
+					"content": "Go to 3"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 5,
+			"person": 2,
+			"delay": 5.0,
+			"music": 0,
+			"background": 2,
+			"forceEmotion": false,
+			"emotion": 6,
+			"title": "",
+			"message": "5) How are you?",
+			"steps": [
+				{
+					"dialogue_id": 8,
+					"content": "I'm fine. (to 8)"
+				},
+				{
+					"dialogue_id": 7,
+					"content": "Bad (to 7)"
+				},
+				{
+					"dialogue_id": 6,
+					"content": "Don't know (to 6)"
+				},
+				{
+					"dialogue_id": 4,
+					"content": "Go to 4"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 6,
+			"person": 1,
+			"delay": 5.0,
+			"music": 1,
+			"background": 2,
+			"forceEmotion": true,
+			"emotion": 6,
+			"title": "",
+			"message": "6) What happend?",
+			"steps": [
+				{
+					"dialogue_id": 7,
+					"content": "Nothing (to 7)"
+				},
+				{
+					"dialogue_id": 8,
+					"content": "Raining (to 8)"
+				},
+				{
+					"dialogue_id": 9,
+					"content": "Unknown (to 9)"
+				},
+				{
+					"dialogue_id": 8,
+					"content": "I'm vampire (to 8)"
+				},
+				{
+					"dialogue_id": 9,
+					"content": "Go to 9"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 7,
+			"person": 1,
+			"delay": 5.0,
+			"music": 1,
+			"background": 1,
+			"forceEmotion": false,
+			"emotion": 7,
+			"title": "",
+			"message": "7) It is interesting?",
+			"steps": [
+				{
+					"dialogue_id": 1,
+					"content": "Yes (to 1)"
+				},
+				{
+					"dialogue_id": 2,
+					"content": "No (to 2)"
+				},
+				{
+					"dialogue_id": 3,
+					"content": "It is ok. (to 3)"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 8,
+			"person": 2,
+			"delay": 5.0,
+			"music": 2,
+			"background": 1,
+			"forceEmotion": false,
+			"emotion": 2,
+			"title": "",
+			"message": "8) ANGRY?????",
+			"steps": [
+				{
+					"dialogue_id": 9,
+					"content": "Ok go next (to 9)"
+				},
+				{
+					"dialogue_id": 7,
+					"content": "What? (to 7)"
+				}
+			],
+			"isComplete": false
+		},
+		{
+			"id": 9,
+			"person": -1,
+			"delay": 5.0,
+			"music": 0,
+			"background": 0,
+			"forceEmotion": false,
+			"emotion": 0,
+			"title": "",
+			"message": "9) It is finish (Finished at 5 seconds)",
+			"steps": [
+
+			],
+			"isComplete": true
+		}
+	]
+}

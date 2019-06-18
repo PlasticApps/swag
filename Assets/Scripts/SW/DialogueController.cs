@@ -147,7 +147,7 @@ namespace SW
             if (isDictor) // Dictor
             {
                 _layout.childAlignment = TextAnchor.LowerCenter;
-                toolTipDictor.title.text = string.IsNullOrEmpty(dialogue.title) ? "Dictor" : dialogue.title;
+                toolTipDictor.title.text = string.IsNullOrEmpty(dialogue.title) ? "..." : dialogue.title;
                 toolTipDictor.message.text = dialogue.message;
             }
             else
